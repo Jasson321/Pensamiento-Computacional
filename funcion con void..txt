@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void funcion1() {
+   cout << "Esta es la función 1!" << endl;
+}
+
+int funcionSuma(int num1, int num2) {
+   return num1 + num2;
+}
+
+int main() {
+   int suma;
+
+   funcion1();
+   suma = funcionSuma(2,3);
+   cout << suma << endl;
+
+   return 0;
+}
